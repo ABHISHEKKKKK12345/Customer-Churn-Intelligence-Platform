@@ -29,7 +29,7 @@
 #
 #  Author   : Abhishek
 #  Project  : Customer Churn Intelligence Platform
-#  Version  : Final Version (v3.0)
+#  Version  : Final Version
 # ==============================================================================
 
 import os
