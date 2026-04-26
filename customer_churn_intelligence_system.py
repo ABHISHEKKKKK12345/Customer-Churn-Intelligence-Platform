@@ -1,6 +1,5 @@
 # ==============================================================================
 #  CUSTOMER CHURN INTELLIGENCE PLATFORM
-#  MBA Final Project
 #
 #  Overview:
 #  End-to-end analytics system that transforms raw customer data into
@@ -29,8 +28,6 @@
 #
 #
 #  Author   : Abhishek
-#  Program  : MBA in Business Analytics (MAHE), Final Year
-#  Roll No. : 24154041051
 #  Project  : Customer Churn Intelligence Platform
 #  Version  : Final Version (v3.0)
 # ==============================================================================
