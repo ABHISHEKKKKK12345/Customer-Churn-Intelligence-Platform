@@ -332,7 +332,7 @@ Customers are placed into one of four segments using a **2×2 Risk × Value matr
                  ├──────────────────┼──────────────────┤
   LOW RISK       │  Low Risk –      │  Low Risk –      │
   (Churn < 60%)  │  High Value      │  Low Value       │
-                 │  🟢 NURTURE     │  ⚪ MONITOR      │
+                 │  🟢 NURTURE      │  ⚪ MONITOR     │
                  └──────────────────┴──────────────────┘
 ```
 
