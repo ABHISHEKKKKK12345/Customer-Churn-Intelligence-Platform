@@ -325,10 +325,10 @@ The `.exe` will be ~200–400 MB because it bundles NumPy, pandas, and scikit-le
 
 ## 📂 GUI Module Structure
 gui/
-├── churn_analytics_gui.py # Main GUI application
-├── requirements.txt # Dependencies
-├── .gitignore # Ignore rules
-└── README.md # This file
+├── churn_analytics_gui.py      # Main GUI application
+├── requirements.txt           # Dependencies
+├── .gitignore                 # Ignore rules
+└── README.md                  # This file
 
 
 ---
