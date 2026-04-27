@@ -424,11 +424,7 @@ pip install -r requirements.txt
 | Field | Detail |
 |---|---|
 | **Name** | Abhishek |
-| **Program** | MBA in Business Analytics |
-| **Institution** | Manipal Academy of Higher Education (MAHE) |
-| **Roll Number** | 24154041051 |
 | **Project Title** | Customer Churn Intelligence Platform |
-| **Version** | v3.0 — Final Submission |
 
 </div>
 
