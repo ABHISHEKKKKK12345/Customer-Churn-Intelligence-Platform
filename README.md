@@ -439,7 +439,7 @@ pip install -r requirements.txt
 
 | Field | Detail |
 |---|---|
-| **Name** | Abhishek |
+| **Name** | [Abhishek](https://www.linkedin.com/in/abhishek-srivastava-1538461b1/) |
 | **Project Title** | Customer Churn Intelligence Platform |
 
 </div>
