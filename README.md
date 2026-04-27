@@ -12,7 +12,6 @@
 
 *An end-to-end customer churn analytics system that transforms raw business data into executive-grade intelligence — with zero configuration required.*
 
-*MBA Final Project · Manipal Academy of Higher Education (MAHE)*
 
 </div>
 
