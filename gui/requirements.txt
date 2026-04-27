@@ -17,9 +17,11 @@ scikit-learn>=1.3.0
 xlsxwriter>=3.1.0          # writes .xlsx with charts, formats, merged cells
 openpyxl>=3.1.0            # reads .xlsx / .xlsm input files
 xlrd>=2.0.1                # reads legacy .xls files
+# NOTE: Limited .xls support in newer versions
 
 # ── Optional — ODS support (uncomment if needed) ───────────────────────────────
 # odfpy>=1.4.1              # reads .ods spreadsheets (OpenDocument)
+# Uncomment if using .ods files
 
 # ── GUI (bundled with Python — no install needed, listed for clarity) ──────────
 # tkinter                   # part of the Python standard library
