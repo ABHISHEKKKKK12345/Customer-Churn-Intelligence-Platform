@@ -2,7 +2,7 @@
 #  CUSTOMER CHURN INTELLIGENCE PLATFORM  ·  GUI Edition
 #
 #  Fully windowed — zero console interaction.
-#  Launch via .exe or `python churn_analytics_gui.py`
+#  Launch via .exe or `python churn-intelligence-platform-gui`
 # ==============================================================================
 
 import os
