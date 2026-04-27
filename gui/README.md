@@ -376,8 +376,14 @@ python churn-intelligence-platform-gui.py
 
 ## 👤 Author
 
-**Abhishek**  
-Business Analytics | Python | Machine Learning
+<p align="center">
+
+| Field | Detail |
+|---|---|
+| **Name** | [Abhishek](https://www.linkedin.com/in/abhishek-srivastava-1538461b1/) |
+| **Project Title** | Customer Churn Intelligence Platform |
+
+</p>
 
 ---
 
