@@ -247,9 +247,18 @@ pip install pyinstaller
 
 Run this command from inside the `gui/` folder:
 
+### Option 1 — Standard Build
 ```bash
 pyinstaller --onefile --windowed --name "ChurnPlatform" churn-intelligence-platform-gui.py
 ```
+
+### Option 2 — With --noconsole (Optional)
+You can optionally add the --noconsole flag:
+```bash
+pyinstaller --onefile --windowed --noconsole --name "ChurnPlatform" churn-intelligence-platform-gui.py
+```
+
+> 💡 Note: The --windowed flag already suppresses the console window for GUI applications, so adding --noconsole is optional and does not change behavior significantly.
 
 | Flag | Purpose |
 |---|---|
