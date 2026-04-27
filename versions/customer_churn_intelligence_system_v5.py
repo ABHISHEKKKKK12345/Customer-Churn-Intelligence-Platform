@@ -1,5 +1,5 @@
 # ==============================
-# CUSTOMER ANALYTICS TOOL v2.0
+# CUSTOMER ANALYTICS TOOL
 # Production-Ready, Robust, Flexible
 # ==============================
 
