@@ -105,7 +105,7 @@ pip install -r requirements.txt
 ### Step 4 — Run the Application
 
 ```bash
-python churn_analytics_gui.py
+python churn-intelligence-platform-gui.py
 ```
 
 A splash screen will appear, followed by the main application window.
@@ -248,7 +248,7 @@ pip install pyinstaller
 Run this command from inside the `gui/` folder:
 
 ```bash
-pyinstaller --onefile --windowed --name "ChurnPlatform" churn_analytics_gui.py
+pyinstaller --onefile --windowed --name "ChurnPlatform" churn-intelligence-platform-gui.py
 ```
 
 | Flag | Purpose |
@@ -260,7 +260,7 @@ pyinstaller --onefile --windowed --name "ChurnPlatform" churn_analytics_gui.py
 ### Step 3 — (Optional) Add a Custom Icon
 
 ```bash
-pyinstaller --onefile --windowed --name "ChurnPlatform" --icon="icon.ico" churn_analytics_gui.py
+pyinstaller --onefile --windowed --name "ChurnPlatform" --icon="icon.ico" churn-intelligence-platform-gui.py
 ```
 
 > The icon must be a `.ico` file. You can convert a PNG to ICO using online tools or Pillow.
@@ -283,6 +283,14 @@ No Python, no pip, no installation required.
 
 ---
 
+### 🔧 Advanced Build (Full Dependency Bundling)
+If you encounter missing module errors in the .exe, use the extended build command below to ensure all dependencies are bundled:
+
+```bash
+pyinstaller --onefile --windowed --noconsole --name "Customer_Churn_Intelligence_Platform_GUI" --hidden-import sklearn.ensemble --hidden-import sklearn.ensemble._forest --hidden-import sklearn.ensemble._gb --hidden-import sklearn.tree --hidden-import sklearn.tree._classes --hidden-import sklearn.impute --hidden-import sklearn.preprocessing --hidden-import sklearn.model_selection --hidden-import sklearn.metrics --hidden-import openpyxl --hidden-import xlrd --hidden-import odf --hidden-import odf.opendocument --hidden-import xlsxwriter --hidden-import tkinter --hidden-import numpy --hidden-import pandas churn-intelligence-platform-gui.py
+```
+> 👉 Use this only if the standard build fails due to missing dependencies.
+
 ### 🛠 Troubleshooting the .exe Build
 
 **Antivirus flags the .exe**
@@ -293,7 +301,7 @@ PyInstaller executables are sometimes flagged by Windows Defender or antivirus s
 **App opens briefly then closes**
 The `--windowed` flag suppresses the console. To debug, build **without** `--windowed` first:
 ```bash
-pyinstaller --onefile --name "ChurnPlatform_debug" churn_analytics_gui.py
+pyinstaller --onefile --name "ChurnPlatform_debug" churn-intelligence-platform-gui.py
 ```
 Run the debug `.exe` from a terminal to see error output.
 
@@ -301,7 +309,7 @@ Run the debug `.exe` from a terminal to see error output.
 Add hidden imports if a module fails to bundle:
 ```bash
 pyinstaller --onefile --windowed --hidden-import=sklearn.ensemble \
-  --hidden-import=sklearn.impute --name "ChurnPlatform" churn_analytics_gui.py
+  --hidden-import=sklearn.impute --name "ChurnPlatform" churn-intelligence-platform-gui.py
 ```
 
 **Large file size**
@@ -326,7 +334,7 @@ The `.exe` will be ~200–400 MB because it bundles NumPy, pandas, and scikit-le
 ## 📂 GUI Module Structure
 ```
 gui/
-├── churn_analytics_gui.py      # Main GUI application
+├── churn-intelligence-platform-gui.py      # Main GUI application
 ├── requirements.txt           # Dependencies
 ├── .gitignore                 # Ignore rules
 └── README.md                  # This file
@@ -338,7 +346,7 @@ gui/
 ### ▶ Run Application
 
 ```bash
-python churn_analytics_gui.py
+python churn-intelligence-platform-gui.py
 ```
 
 ---
