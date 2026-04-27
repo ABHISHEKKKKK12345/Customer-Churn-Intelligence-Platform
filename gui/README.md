@@ -43,19 +43,19 @@ Upload any customer dataset, click **Run**, and receive a professionally formatt
 ## 🖥️ Application Layout
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  📊  Customer Churn Intelligence Platform          v2.0  │
-├─────────────────────────────────────────────────────────┤
+┌──────────────────────────────────────────────────────────┐
+│  📊  Customer Churn Intelligence Platform                │
+├──────────────────────────────────────────────────────────┤
 │  Author strip                                            │
-├─────────────────────────────────────────────────────────┤
-│  ℹ  What This Tool Does          (info card)            │
+├──────────────────────────────────────────────────────────┤
+│  ℹ  What This Tool Does          (info card)             │
 │  📂  Step 1 — Select Dataset     (file browser)         │
 │  💾  Step 2 — Choose Save Path   (save dialog)          │
 │  🚀  Step 3 — Run Analysis       (big green button)     │
-│  ━━━━━━━━━━━━  Progress Bar  ━━━━━━━━━━━━               │
+│  ━━━━━━━━━━━━  Progress Bar  ━━━━━━━━━━━━                │
 │  📈  Results — KPI Cards         (live after run)       │
 │  📋  Activity Log                (timestamped log)      │
-└─────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────┘
 ```
 
 ---
