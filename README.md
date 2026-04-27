@@ -32,6 +32,7 @@
 - [Feature Engineering](#-feature-engineering)
 - [Customer Segmentation](#-customer-segmentation)
 - [Methodology & Limitations](#-methodology--limitations)
+- [Build EXE](#-build-exe)
 - [Project Structure](#-project-structure)
 - [Dependencies](#-dependencies)
 - [Author](#-author)
@@ -125,7 +126,7 @@ pip install pandas numpy scikit-learn xlsxwriter openpyxl xlrd odfpy
 ### Step 3 — Run the Tool
 
 ```bash
-python churn_analytics.py
+python customer_churn_intelligence_system.py
 ```
 
 A GUI window will guide you through the rest.
@@ -380,19 +381,42 @@ ML accuracy and AUC-ROC are **suppressed** when synthetic labels are in use, as 
 
 ---
 
+## 🖥️ Build EXE
+
+To convert the tool into a standalone Windows `.exe` (no Python installation required on target machine):
+
+### Step 1 — Install PyInstaller
+```bash
+pip install pyinstaller
+```
+
+### Step 2 — Build the EXE
+```bash
+pyinstaller --onefile --windowed --noconsole --name "Customer_Churn_Intelligence_Platform" --hidden-import sklearn.ensemble --hidden-import sklearn.ensemble._forest --hidden-import sklearn.ensemble._gb --hidden-import sklearn.tree --hidden-import sklearn.tree._classes --hidden-import sklearn.impute --hidden-import sklearn.preprocessing --hidden-import sklearn.model_selection --hidden-import sklearn.metrics --hidden-import openpyxl --hidden-import xlrd --hidden-import odf --hidden-import odf.opendocument --hidden-import xlsxwriter "customer_churn_intelligence_system.py"
+```
+
+### Step 3 — Find Your EXE
+```
+dist/Customer_Churn_Intelligence_Platform.exe
+```
+
+> 💡 The `.exe` is fully self-contained — copy it to any Windows PC and run without installing Python or any libraries.
+
+---
+
 ## 📂 Project Structure
 
 ```
 churn-intelligence-platform/
 │
-├── churn_analytics.py       # Main application — single self-contained file
-├── requirements.txt         # All Python dependencies with version pins
-├── README.md                # This documentation file
-│
-└── sample_data/             # (Optional) Test datasets for validation
-    ├── telecom_churn.csv
-    └── retail_customers.xlsx
+├── customer_churn_intelligence_system.py   # Main application — single self-contained file
+├── requirements.txt                         # All Python dependencies
+├── README.md                                # This documentation file
+└── .gitignore                               # Excludes build/, dist/, __pycache__/
 ```
+
+> 💡 **Note:** `dist/`, `build/`, and `.spec` files are excluded from the repository via `.gitignore`.
+> To generate the `.exe`, follow the [Build EXE](#-build-exe) section above.
 
 ---
 
