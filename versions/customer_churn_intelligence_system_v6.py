@@ -1,5 +1,5 @@
 # ==============================
-# CUSTOMER ANALYTICS TOOL v3.0
+# CUSTOMER ANALYTICS TOOL 
 # Fully Robust, Production-Ready
 # Handles ALL Edge Cases
 # ==============================
