@@ -17,7 +17,6 @@ __pycache__/
 venv/
 env/
 ENV/
-.env/
 .Python
 pip-selfcheck.json
 
@@ -52,7 +51,6 @@ Churn_Analytics_Report.xlsx
 *.xlsb
 *.ods
 *.tsv
-*.txt
 # Un-ignore this file specifically so requirements.txt stays tracked:
 !requirements.txt
 
