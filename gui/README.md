@@ -1,9 +1,16 @@
 # 📊 Customer Churn Intelligence Platform
-### GUI Edition — v2.0
+## 🖥️ GUI Application (Desktop Interface)
 
-> **MBA Final Project · Business Analytics**
-> Abhishek | Roll No. 24154041051 | MBA Business Analytics, MAHE
+> Machine Learning-Based Customer Churn Analytics System
 
+## 📁 Module Overview
+
+This folder contains the **GUI version** of the Customer Churn Intelligence Platform.
+
+- Fully interactive desktop application  
+- Designed for non-technical users  
+- Uses the same backend logic as the core system
+  
 ---
 
 ## 📌 Overview
@@ -72,7 +79,7 @@ Upload any customer dataset, click **Run**, and receive a professionally formatt
 
 ```bash
 git clone https://github.com/your-username/churn-intelligence-platform.git
-cd churn-intelligence-platform/gui
+cd gui
 ```
 
 Or download the ZIP, extract it, and open the `gui/` folder.
@@ -316,20 +323,20 @@ The `.exe` will be ~200–400 MB because it bundles NumPy, pandas, and scikit-le
 
 ---
 
-## 📂 Project Structure
+## 📂 GUI Module Structure
+gui/
+├── churn_analytics_gui.py # Main GUI application
+├── requirements.txt # Dependencies
+├── .gitignore # Ignore rules
+└── README.md # This file
 
-```
-churn-intelligence-platform/
-│
-└── gui/                            # All project files live here
-    │
-    ├── churn_analytics_gui.py      # Main GUI application (full windowed interface)
-    ├── requirements.txt            # Python dependencies
-    ├── .gitignore                  # Git ignore rules
-    ├── README.md                   # This file
-    │
-    └── dist/                       # Created after PyInstaller build (auto-generated)
-        └── ChurnPlatform.exe       # Standalone Windows executable
+
+---
+
+### ▶ Run Application
+
+```bash
+python churn_analytics_gui.py
 ```
 
 ---
@@ -350,14 +357,13 @@ churn-intelligence-platform/
 
 ## 👤 Author
 
-**Abhishek**
-MBA in Business Analytics — Final Year
-Manipal Academy of Higher Education (MAHE)
-Roll No. 24154041051
+**Abhishek**  
+Business Analytics | Python | Machine Learning
 
 ---
 
 ## 📄 License
 
-This project was developed as an MBA Final Year Project for academic submission.
-© 2025 Abhishek — MAHE, MBA Business Analytics.
+This project is for educational and portfolio purposes.
+
+  
