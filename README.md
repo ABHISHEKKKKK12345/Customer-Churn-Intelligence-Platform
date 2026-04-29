@@ -104,7 +104,7 @@ A GUI window will guide you through the rest — no configuration files, no comm
 │ tried        │ types        │              │                    │
 │              │              │ Score every  │ High-Risk Action   │
 │ 6 separators │ Currency /   │ customer     │ List               │
-│ tried        │ locale fixes │ 0.0 → 1.0   │                    │
+│ tried        │ locale fixes │ 0.0 → 1.0    │                    │
 │              │              │              │ Processed Data     │
 │ Excel, CSV,  │ Label encode │ Segment into │                    │
 │ ODS, TSV     │ categoricals │ 4 groups     │ Raw Data           │
