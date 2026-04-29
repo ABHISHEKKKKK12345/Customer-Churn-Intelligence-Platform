@@ -10,7 +10,7 @@
 ![XlsxWriter](https://img.shields.io/badge/XlsxWriter-Reports-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![License](https://img.shields.io/badge/License-Academic-blueviolet?style=for-the-badge)
 
-*An end-to-end customer churn analytics system that transforms raw business data into executive-grade intelligence — with zero configuration required.*
+*An end-to-end customer churn analytics system that transforms raw business data into executive-grade intelligence — zero configuration required — works out-of-the-box with raw, unstructured business data.*
 
 
 </div>
@@ -48,7 +48,11 @@ The platform is designed around a core business question: **"Which customers are
 Raw Data File  →  Auto-Clean  →  ML Model  →  Segmentation  →  Executive Excel Report
   (any format)     + Repair       Training       + CLV Calc        (6 sheets + 6 charts)
 ```
+## ⚡ Quick Start (2 Minutes)
 
+```bash
+pip install -r requirements.txt
+python customer_churn_intelligence_system.py
 ---
 
 ## ✨ Key Features
@@ -376,6 +380,15 @@ ML accuracy and AUC-ROC are **suppressed** when synthetic labels are in use, as 
 
 To convert the tool into a standalone Windows `.exe` (no Python installation required on target machine):
 
+### ⚠️ Build Environment Requirements
+
+Before building the `.exe`, ensure your environment is properly configured:
+
+- All dependencies from `requirements.txt` must be installed
+- Use a clean virtual environment (recommended)
+- Build on the same OS where the `.exe` will run (Windows → Windows)
+
+
 ### Step 1 — Install PyInstaller
 ```bash
 pip install pyinstaller
@@ -383,15 +396,38 @@ pip install pyinstaller
 
 ### Step 2 — Build the EXE
 ```bash
-pyinstaller --onefile --windowed --noconsole --name "Customer_Churn_Intelligence_Platform" --hidden-import sklearn.ensemble --hidden-import sklearn.ensemble._forest --hidden-import sklearn.ensemble._gb --hidden-import sklearn.tree --hidden-import sklearn.tree._classes --hidden-import sklearn.impute --hidden-import sklearn.preprocessing --hidden-import sklearn.model_selection --hidden-import sklearn.metrics --hidden-import openpyxl --hidden-import xlrd --hidden-import odf --hidden-import odf.opendocument --hidden-import xlsxwriter "customer_churn_intelligence_system.py"
+pyinstaller --onefile --windowed --noconsole \
+--name "Customer_Churn_Intelligence_Platform" \
+--collect-all sklearn \
+--collect-all openpyxl \
+--collect-all xlsxwriter \
+--collect-all odf \
+--collect-all xlrd \
+customer_churn_intelligence_system.py
 ```
+
+## 🧩 Troubleshooting
+
+### EXE not opening or crashing
+- Ensure all dependencies were installed before building
+- Rebuild using a clean virtual environment
+
+### Missing module errors
+- Rebuild using `--collect-all` flags for required libraries
+
+### GUI not showing
+- Ensure `--windowed` flag is used (prevents console conflicts)
+
+### Antivirus blocking EXE
+- Some antivirus tools flag PyInstaller executables
+- Add exception or rebuild with a different name
 
 ### Step 3 — Find Your EXE
 ```
 dist/Customer_Churn_Intelligence_Platform.exe
 ```
 
-> 💡 The `.exe` is fully self-contained — copy it to any Windows PC and run without installing Python or any libraries.
+> 💡 The generated `.exe` is fully self-contained and requires no Python installation on the target machine.
 
 ---
 
@@ -412,6 +448,12 @@ churn-intelligence-platform/
 ---
 
 ## 📦 Dependencies
+
+Install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
 
 | Package | Purpose | Min Version |
 |---|---|---|
