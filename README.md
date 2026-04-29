@@ -510,8 +510,6 @@ pip install -r requirements.txt
 | Field | Detail |
 |---|---|
 | **Name** | [Abhishek](https://www.linkedin.com/in/abhishek-srivastava-1538461b1/) |
-| **Program** | MBA in Business Analytics — MAHE |
-| **Roll No.** | 24154041051 |
 | **Project Title** | Customer Churn Intelligence Platform |
 
 </div>
