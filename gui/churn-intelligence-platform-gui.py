@@ -414,7 +414,7 @@ class ChurnApp:
         # Footer
         tk.Frame(self.scroll_frame, bg=GUI["bg"], height=20).pack()
         tk.Label(self.scroll_frame,
-                 text=f"© 2025  {AUTHOR}",
+                 text=f"© 2025–2026  {AUTHOR}",
                  font=("Segoe UI", 8),
                  bg=GUI["bg"], fg=GUI["dgrey"]).pack(pady=(0, 16))
 
