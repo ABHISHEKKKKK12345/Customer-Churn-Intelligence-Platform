@@ -1,8 +1,6 @@
 # ==============================================================================
 #  Customer Churn Intelligence Platform — Python Dependencies
 #  Author   : Abhishek
-#  Program  : MBA in Business Analytics (MAHE), Final Year
-#  Roll No. : 24154041051
 # ==============================================================================
 #
 #  Install all runtime dependencies:
