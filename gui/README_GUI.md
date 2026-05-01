@@ -581,7 +581,7 @@ churn-intelligence-platform/               ← repository root
 └── README.md                              # Root-level documentation (core version)
 ```
 
-> 💡 `dist/`, `build/`, and `.spec` files are excluded via `gui/.gitignore`. To generate the `.exe`, follow [Building a Standalone EXE](#-building-a-standalone-exe) above.
+> 💡 `dist/`, `build/`, and `.spec` files are excluded via `gui/.gitignore`. To generate the `.exe`, follow [Building a Standalone EXE](#build-exe) above.
 
 ---
 
