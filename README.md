@@ -169,7 +169,7 @@ The tool is entirely GUI-driven — no command-line arguments or configuration f
 Click **OK** when the welcome dialog appears.
 
 **Step 2 — Select Your Dataset**
-A file picker opens. Navigate to your customer data file (see [Supported File Formats](#-supported-file-formats)).
+A file picker opens. Navigate to your customer data file (see [Supported File Formats](#supported-file-formats)).
 
 **Step 3 — Automatic Processing**
 The tool will:
@@ -231,7 +231,7 @@ String values in the churn column are mapped to binary labels automatically:
 |---|---|
 | `Yes`, `Y`, `True`, `1`, `Churned`, `Left`, `Cancelled`, `Cancel`, `Exit`, `Quit`, `Inactive`, `Lost`, `Gone`, `Departed`, `Attrited`, `Closed` | `No`, `N`, `False`, `0`, `Active`, `Retained`, `Stay`, `Stayed`, `Current`, `Existing`, `Ongoing`, `Present`, `Alive`, `Good`, `Loyal` |
 
-> ⚠️ If more than **60%** of values cannot be mapped to either side, **synthetic labels** are generated instead (see [Methodology & Limitations](#-methodology--limitations)).
+> ⚠️ If more than **60%** of values cannot be mapped to either side, **synthetic labels** are generated instead (see [Methodology & Limitations](#methodology)).
 
 ---
 
