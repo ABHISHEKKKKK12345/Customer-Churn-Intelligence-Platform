@@ -279,7 +279,7 @@ All column names are normalised (lowercase, alphanumeric only) before matching. 
 |---|---|
 | `Yes`, `Y`, `True`, `1`, `Churned`, `Left`, `Cancelled`, `Cancel`, `Exit`, `Quit`, `Inactive`, `Lost`, `Gone`, `Departed`, `Attrited`, `Closed` | `No`, `N`, `False`, `0`, `Active`, `Retained`, `Stay`, `Stayed`, `Current`, `Existing`, `Ongoing`, `Present`, `Alive`, `Good`, `Loyal` |
 
-> ⚠️ If more than **60%** of values cannot be mapped, synthetic labels are generated automatically (see [Methodology & Limitations](#-methodology--limitations)).
+> ⚠️ If more than **60%** of values cannot be mapped, synthetic labels are generated automatically (see [Methodology & Limitations](#methodology)).
 
 ---
 
@@ -551,7 +551,7 @@ The `build/` folder and `.spec` file are not needed and can be deleted.
 | `Cannot open Excel/ODS file` | File is password-protected or corrupted | Remove password protection in Excel first |
 | Report not saving | Target file already open in Excel | App prompts to auto-rename with timestamp — click **Yes** |
 | ML skipped, heuristic used | Fewer than 20 rows, or single-class labels | Expected — heuristic still produces valid risk scores |
-| Accuracy shows `N/A (synthetic)` | No real churn column detected | Normal — see [Methodology & Limitations](#-methodology--limitations) |
+| Accuracy shows `N/A (synthetic)` | No real churn column detected | Normal — see [Methodology & Limitations](#methodology) |
 | EXE missing DLLs on Windows | Visual C++ Redistributable missing | Install [VC++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) |
 | UI freezes during analysis | Should not happen — analysis is threaded | If observed, check that no modal dialog is waiting behind another window |
 
