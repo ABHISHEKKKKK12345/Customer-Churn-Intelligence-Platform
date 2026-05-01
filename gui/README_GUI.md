@@ -4,12 +4,16 @@
 
 **A Fully Windowed Desktop Application for ML-Based Customer Churn Analytics**
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Tkinter](https://img.shields.io/badge/Tkinter-GUI-007ACC?style=for-the-badge&logo=python&logoColor=white)
-![XlsxWriter](https://img.shields.io/badge/XlsxWriter-Reports-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Tkinter](https://img.shields.io/badge/Tkinter-GUI-007ACC?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/tkinter.html)
+[![XlsxWriter](https://img.shields.io/badge/XlsxWriter-Reports-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://xlsxwriter.readthedocs.io/)
+[![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)](LICENSE)
+
+</div>
 
 *Transform raw customer data into executive-grade churn intelligence — fully windowed, zero console, zero configuration.*
 
