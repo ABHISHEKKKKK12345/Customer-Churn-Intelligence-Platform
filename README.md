@@ -22,7 +22,7 @@
 - [Quick Start](#-quick-start)
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
-- [Installation](#-installation)
+- [Installation](#installation)
 - [Usage](#-usage)
 - [Supported File Formats](#-supported-file-formats)
 - [Column Auto-Detection](#-column-auto-detection)
@@ -30,11 +30,11 @@
 - [Output Report Structure](#-output-report-structure)
 - [Feature Engineering](#-feature-engineering)
 - [Customer Segmentation](#-customer-segmentation)
-- [Methodology & Limitations](#-methodology--limitations)
-- [Build EXE](#-build-exe)
+- [Methodology & Limitations](#methodology--limitations)
+- [Build EXE](#build-exe)
 - [Project Structure](#-project-structure)
 - [Dependencies](#-dependencies)
-- [Author](#-author)
+- [Author](#author)
 - [License](#-license)
 
 ---
