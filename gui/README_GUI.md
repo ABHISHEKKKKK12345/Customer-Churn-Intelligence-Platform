@@ -11,7 +11,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-Data-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Tkinter](https://img.shields.io/badge/Tkinter-GUI-007ACC?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/tkinter.html)
 [![XlsxWriter](https://img.shields.io/badge/XlsxWriter-Reports-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://xlsxwriter.readthedocs.io/)
-[![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)](../LICENSE)
 
 </div>
 
