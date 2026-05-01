@@ -495,7 +495,7 @@ churn-intelligence-platform/
 └── .gitignore                              # Excludes build/, dist/, __pycache__/, *.spec
 ```
 
-> 💡 `dist/`, `build/`, and `.spec` files are excluded via `.gitignore`. To generate the `.exe`, follow the [Build EXE](#-build-exe) section above.
+> 💡 `dist/`, `build/`, and `.spec` files are excluded via `.gitignore`. To generate the `.exe`, follow the [Build EXE](#build-exe) section above.
 
 ---
 
