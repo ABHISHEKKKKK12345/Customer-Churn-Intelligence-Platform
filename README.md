@@ -39,6 +39,7 @@
 
 ---
 
+<a id="overview"></a>
 ## 🎯 Overview
 
 The **Customer Churn Intelligence Platform** is a fully automated, GUI-driven analytics tool built for business analysts and data professionals. It accepts raw customer data in virtually any tabular format, intelligently detects relevant columns, trains a machine learning model, and produces a polished, multi-sheet Excel report — all without writing a single line of code.
@@ -54,6 +55,7 @@ Raw Data File  →  Auto-Clean  →  ML Model  →  Segmentation  →  Executive
 
 ---
 
+<a id="quick-start"></a>
 ## ⚡ Quick Start
 
 ```bash
@@ -72,6 +74,7 @@ A GUI window will guide you through the rest — no configuration files, no comm
 
 ---
 
+<a id="key-features"></a>
 ## ✨ Key Features
 
 | Feature | Description |
@@ -89,6 +92,7 @@ A GUI window will guide you through the rest — no configuration files, no comm
 
 ---
 
+<a id="how-it-works"></a>
 ## 🔄 How It Works
 
 ```
@@ -156,6 +160,7 @@ python customer_churn_intelligence_system.py
 
 ---
 
+<a id="usage"></a>
 ## 🚀 Usage
 
 The tool is entirely GUI-driven — no command-line arguments or configuration files required.
@@ -186,6 +191,7 @@ Choose a save location and filename. The fully formatted `.xlsx` report is gener
 
 ---
 
+<a id="supported-file-formats"></a>
 ## 📁 Supported File Formats
 
 | Format | Extensions | Notes |
@@ -202,6 +208,7 @@ Choose a save location and filename. The fully formatted `.xlsx` report is gener
 
 ---
 
+<a id="column-auto-detection"></a>
 ## 🔍 Column Auto-Detection
 
 The tool normalises all column names (lowercase, alphanumeric only) and searches for keywords in priority order. The **most specific keyword wins**, and no column can serve two roles simultaneously.
@@ -228,6 +235,7 @@ String values in the churn column are mapped to binary labels automatically:
 
 ---
 
+<a id="machine-learning-pipeline"></a>
 ## 🤖 Machine Learning Pipeline
 
 ### Models
@@ -271,6 +279,7 @@ All features are imputed with **median strategy** (`sklearn.impute.SimpleImputer
 
 ---
 
+<a id="output-report-structure"></a>
 ## 📊 Output Report Structure
 
 The generated `.xlsx` file always contains **13 sheets**:
@@ -340,6 +349,7 @@ These sheets directly feed the dashboard charts. They are accessible for referen
 
 ---
 
+<a id="feature-engineering"></a>
 ## 🧮 Feature Engineering
 
 | Engineered Column | Formula | Business Meaning |
@@ -355,6 +365,7 @@ These sheets directly feed the dashboard charts. They are accessible for referen
 
 ---
 
+<a id="customer-segmentation"></a>
 ## 🎯 Customer Segmentation
 
 Every customer is placed into one of four segments using a **2×2 Risk × Value matrix:**
@@ -472,6 +483,7 @@ dist/Customer_Churn_Intelligence_Platform.exe
 
 ---
 
+<a id="project-structure"></a>
 ## 📂 Project Structure
 
 ```
@@ -487,6 +499,7 @@ churn-intelligence-platform/
 
 ---
 
+<a id="dependencies"></a>
 ## 📦 Dependencies
 
 ```bash
@@ -520,6 +533,7 @@ pip install -r requirements.txt
 
 ---
 
+<a id="license"></a>
 ## 📄 License
 
 This project is released under the [MIT License](LICENSE). You are free to use, modify, and distribute it with attribution.
