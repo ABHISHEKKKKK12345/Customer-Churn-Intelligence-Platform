@@ -618,7 +618,7 @@ pip install -r requirements.txt
 <a id="license"></a>
 ## 📄 License
 
-This project is released under the [MIT License](LICENSE). You are free to use, modify, and distribute it with attribution.
+This project is released under the [MIT License](../LICENSE). You are free to use, modify, and distribute it with attribution.
 
 ---
 
