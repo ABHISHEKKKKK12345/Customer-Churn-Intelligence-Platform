@@ -18,24 +18,24 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#-overview)
-- [Quick Start](#-quick-start)
-- [Key Features](#-key-features)
-- [How It Works](#-how-it-works)
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
 - [Installation](#installation)
-- [Usage](#-usage)
-- [Supported File Formats](#-supported-file-formats)
-- [Column Auto-Detection](#-column-auto-detection)
-- [Machine Learning Pipeline](#-machine-learning-pipeline)
-- [Output Report Structure](#-output-report-structure)
-- [Feature Engineering](#-feature-engineering)
-- [Customer Segmentation](#-customer-segmentation)
-- [Methodology & Limitations](#methodology--limitations)
+- [Usage](#usage)
+- [Supported File Formats](#supported-file-formats)
+- [Column Auto-Detection](#column-auto-detection)
+- [Machine Learning Pipeline](#machine-learning-pipeline)
+- [Output Report Structure](#output-report-structure)
+- [Feature Engineering](#feature-engineering)
+- [Customer Segmentation](#customer-segmentation)
+- [Methodology & Limitations](#methodology)
 - [Build EXE](#build-exe)
-- [Project Structure](#-project-structure)
-- [Dependencies](#-dependencies)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
 - [Author](#author)
-- [License](#-license)
+- [License](#license)
 
 ---
 
@@ -116,6 +116,7 @@ A GUI window will guide you through the rest — no configuration files, no comm
 
 ---
 
+<a id="installation"></a>
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -373,6 +374,7 @@ Every customer is placed into one of four segments using a **2×2 Risk × Value 
 
 ---
 
+<a id="methodology"></a>
 ## ⚠️ Methodology & Limitations
 
 ### CLV Calculation
@@ -423,6 +425,7 @@ Heuristic Score = tenure_rank↓ × 0.55
 
 ---
 
+<a id="build-exe"></a>
 ## 🖥️ Build EXE
 
 Convert the tool into a standalone Windows `.exe` that requires no Python installation on the target machine.
@@ -503,6 +506,7 @@ pip install -r requirements.txt
 
 ---
 
+<a id="author"></a>
 ## 👨‍💼 Author
 
 <div align="center">
