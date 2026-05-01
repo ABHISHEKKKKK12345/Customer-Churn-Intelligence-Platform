@@ -19,28 +19,29 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#-overview)
-- [Quick Start](#-quick-start)
-- [Key Features](#-key-features)
-- [Application Layout](#-application-layout)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Supported Input Formats](#-supported-input-formats)
-- [Column Auto-Detection](#-column-auto-detection)
-- [Machine Learning Pipeline](#-machine-learning-pipeline)
-- [Feature Engineering](#-feature-engineering)
-- [Customer Segmentation](#-customer-segmentation)
-- [Methodology & Limitations](#-methodology--limitations)
-- [Excel Report Structure](#-excel-report-structure)
-- [Building a Standalone EXE](#-building-a-standalone-exe)
-- [Common Issues & Fixes](#-common-issues--fixes)
-- [Project Structure](#-project-structure)
-- [Dependencies](#-dependencies)
-- [Author](#-author)
-- [License](#-license)
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Key Features](#key-features)
+- [Application Layout](#application-layout)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Input Formats](#supported-input-formats)
+- [Column Auto-Detection](#column-auto-detection)
+- [Machine Learning Pipeline](#machine-learning-pipeline)
+- [Feature Engineering](#feature-engineering)
+- [Customer Segmentation](#customer-segmentation)
+- [Methodology & Limitations](#methodology)
+- [Excel Report Structure](#excel-report-structure)
+- [Building a Standalone EXE](#build-exe)
+- [Common Issues & Fixes](#common-issues)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Author](#author)
+- [License](#license)
 
 ---
 
+<a id="overview"></a>
 ## 🎯 Overview
 
 The **GUI Edition** is a fully windowed desktop application of the Customer Churn Intelligence Platform. It wraps the complete analytics pipeline — data ingestion, cleaning, ML training, segmentation, and Excel report generation — inside a polished, scroll-able Tkinter interface.
@@ -58,6 +59,7 @@ Launch App  →  Select File  →  Click Run  →  Progress Bar  →  KPI Cards 
 
 ---
 
+<a id="quick-start"></a>
 ## ⚡ Quick Start
 
 ```bash
@@ -76,6 +78,7 @@ A splash screen loads, followed by the main application window.
 
 ---
 
+<a id="key-features"></a>
 ## ✨ Key Features
 
 | Feature | Detail |
@@ -97,6 +100,7 @@ A splash screen loads, followed by the main application window.
 
 ---
 
+<a id="application-layout"></a>
 ## 🖥️ Application Layout
 
 <table>
@@ -140,6 +144,7 @@ A branded splash screen is displayed on launch with an animated progress bar, st
 
 ---
 
+<a id="installation"></a>
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -194,6 +199,7 @@ python churn-intelligence-platform-gui.py
 
 ---
 
+<a id="usage"></a>
 ## 🚀 Usage
 
 The application is entirely GUI-driven — no command-line arguments or config files needed.
@@ -227,6 +233,7 @@ When complete:
 
 ---
 
+<a id="supported-input-formats"></a>
 ## 📁 Supported Input Formats
 
 | Format | Extensions | Notes |
@@ -247,6 +254,7 @@ When complete:
 
 ---
 
+<a id="column-auto-detection"></a>
 ## 🔍 Column Auto-Detection
 
 All column names are normalised (lowercase, alphanumeric only) before matching. The **most specific keyword wins**, and no column can serve two roles simultaneously.
@@ -271,6 +279,7 @@ All column names are normalised (lowercase, alphanumeric only) before matching. 
 
 ---
 
+<a id="machine-learning-pipeline"></a>
 ## 🤖 Machine Learning Pipeline
 
 ```
@@ -320,6 +329,7 @@ Churn_Prob (0.0–1.0) per customer  →  CLV  →  Segmentation  →  KPIs  →
 
 ---
 
+<a id="feature-engineering"></a>
 ## 🧮 Feature Engineering
 
 | Feature | Formula | Business Meaning |
@@ -342,6 +352,7 @@ Score = tenure_rank↓ × 0.55
 
 ---
 
+<a id="customer-segmentation"></a>
 ## 🎯 Customer Segmentation
 
 Every customer is assigned to one of four segments using a **2×2 Risk × Value matrix:**
@@ -361,6 +372,7 @@ Every customer is assigned to one of four segments using a **2×2 Risk × Value 
 
 ---
 
+<a id="methodology"></a>
 ## ⚠️ Methodology & Limitations
 
 ### CLV Calculation
@@ -399,6 +411,7 @@ ML accuracy and AUC-ROC are **suppressed** in this mode — they would only meas
 
 ---
 
+<a id="excel-report-structure"></a>
 ## 📊 Excel Report Structure
 
 The generated `.xlsx` file always contains exactly **12 sheets:**
@@ -437,6 +450,7 @@ The generated `.xlsx` file always contains exactly **12 sheets:**
 
 ---
 
+<a id="build-exe"></a>
 ## 🖥️ Building a Standalone EXE
 
 Convert the app to a single executable that runs on any Windows machine without Python installed.
@@ -523,6 +537,7 @@ The `build/` folder and `.spec` file are not needed and can be deleted.
 
 ---
 
+<a id="common-issues"></a>
 ## 🐛 Common Issues & Fixes
 
 | Problem | Cause | Fix |
@@ -538,6 +553,7 @@ The `build/` folder and `.spec` file are not needed and can be deleted.
 
 ---
 
+<a id="project-structure"></a>
 ## 📂 Project Structure
 
 ```
@@ -565,6 +581,7 @@ churn-intelligence-platform/               ← repository root
 
 ---
 
+<a id="dependencies"></a>
 ## 📦 Dependencies
 
 ```bash
@@ -584,6 +601,7 @@ pip install -r requirements.txt
 
 ---
 
+<a id="author"></a>
 ## 👤 Author
 
 <div align="center">
@@ -597,6 +615,7 @@ pip install -r requirements.txt
 
 ---
 
+<a id="license"></a>
 ## 📄 License
 
 This project is released under the [MIT License](LICENSE). You are free to use, modify, and distribute it with attribution.
