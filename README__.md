@@ -9,7 +9,6 @@
 | **Programme** | MBA — Business Analytics |
 | **University** | Manipal Academy of Higher Education (MAHE) |
 | **Month & Year** | May 2026 |
-| **Project Mentor** | Ramendra Rai |
 | **University Project Mentor** | Shrishma Rao V S |
 
 ---
@@ -53,7 +52,7 @@ The **Customer Churn Intelligence Platform** is a Python-based, end-to-end analy
 ## 2. Repository and Submission Contents
 
 ```
-├── customer_churn_intelligence_system_Abhishek_24154041051.py   # Main platform code
+├── customer_churn_intelligence_system_Abhishek_24154041051.py    # Main platform code
 ├── churn.csv                                                     # Input dataset (100,000 records)
 ├── Churn_Analytics_Report.xlsx                                   # Output Excel report (generated)
 ├── Abhishek_24154041051_Final_Project_Report_Track1.pdf          # Final project report (PDF)
