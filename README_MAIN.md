@@ -9,7 +9,7 @@
 | **Programme** | MBA — Business Analytics |
 | **University** | Manipal Academy of Higher Education (MAHE) |
 | **Month & Year** | May 2026 |
-| **Project Mentor** | Ramendra Rai |
+| **External Project Guide** | Ramendra Rai |
 | **University Project Mentor** | Shrishma Rao V S |
 
 ---
