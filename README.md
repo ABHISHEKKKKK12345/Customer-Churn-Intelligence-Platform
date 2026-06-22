@@ -84,7 +84,7 @@ A GUI window will guide you through the rest — no configuration files, no comm
 | 🔍 **Smart Column Detection** | Automatically identifies Churn, Revenue, Tenure, and Customer ID columns using keyword normalisation with conflict resolution |
 | 🤖 **Dual ML Models** | Random Forest (primary, 300 trees) → Gradient Boosting (fallback, 150 estimators) → heuristic percentile score (last resort) |
 | 📊 **Synthetic Label Fallback** | When no real churn column exists, labels are generated via a weighted percentile risk-score formula; ML metrics are suppressed and clearly flagged |
-| 🧮 **CLV Prediction** | Retention-weighted historical customer value proxy: TotalCharges × (1 – Churn_Prob)` |
+| 🧮 **CLV Prediction** | Retention-weighted historical customer value proxy: `TotalCharges × (1 – Churn_Prob)` |
 | 🎯 **2×2 Segmentation Matrix** | Classifies every customer into High/Low Risk × High/Low Value for action prioritisation |
 | 📈 **Executive Excel Report** | 12-sheet workbook with 14 KPI cards, 6 embedded charts, colour-coded risk indicators, and a full pipeline audit trail |
 | 🔒 **Safe File Saving** | Retry logic (up to 3 attempts) with automatic timestamp-based renaming when the target file is locked or already open |
