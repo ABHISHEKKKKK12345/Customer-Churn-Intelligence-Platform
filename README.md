@@ -50,7 +50,7 @@ The platform is designed around a core business question:
 
 ```
 Raw Data File  →  Auto-Clean  →  ML Model  →  Segmentation  →  Executive Excel Report
-  (any format)     + Repair       Training       + CLV Calc        (13 sheets + 6 charts)
+  (any format)     + Repair       Training       + CLV Calc        (12 sheets + 6 charts)
 ```
 
 ---
