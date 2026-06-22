@@ -3,18 +3,15 @@
 #
 #  Overview:
 #  End-to-end analytics system that transforms raw customer data into
-#  actionable business insights.  Integrates data processing, machine
-#  learning, and executive reporting to identify at-risk customers and
-#  quantify potential revenue impact.
+#  actionable business insights. Integrates data processing, machine
+#  learning, customer segmentation, retention-weighted CLV estimation,
+#  and executive reporting to identify at-risk customers and quantify
+#  potential revenue impact.
 #
 #  Core Functionality:
-#    • Multi-format data ingestion (CSV, Excel, ODS, TSV)
-#    • Automated data cleaning and preprocessing
-#    • Intelligent column detection (Churn, Revenue, Tenure, Customer ID)
-#    • Feature engineering for behavioural and financial analysis
 #    • ML-based churn prediction (Random Forest / Gradient Boosting)
 #    • Customer segmentation based on risk and value
-#    • Customer Lifetime Value (CLV) prediction
+#    • Retention-weighted Customer Lifetime Value (CLV) estimation
 #    • Revenue-at-risk estimation and prioritisation
 #
 #  Output Deliverables:
