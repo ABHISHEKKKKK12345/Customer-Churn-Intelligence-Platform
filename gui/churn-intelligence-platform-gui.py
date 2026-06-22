@@ -12,6 +12,7 @@ import time
 import threading
 import warnings
 import traceback
+import xlsxwriter
 
 import numpy as np
 import pandas as pd
