@@ -84,9 +84,9 @@ A GUI window will guide you through the rest — no configuration files, no comm
 | 🔍 **Smart Column Detection** | Automatically identifies Churn, Revenue, Tenure, and Customer ID columns using keyword normalisation with conflict resolution |
 | 🤖 **Dual ML Models** | Random Forest (primary, 300 trees) → Gradient Boosting (fallback, 150 estimators) → heuristic percentile score (last resort) |
 | 📊 **Synthetic Label Fallback** | When no real churn column exists, labels are generated via a weighted percentile risk-score formula; ML metrics are suppressed and clearly flagged |
-| 🧮 **CLV Prediction** | Retention-weighted historical proxy: `TotalCharges × (1 – Churn_Prob)` |
+| 🧮 **CLV Prediction** | Retention-weighted historical customer value proxy: TotalCharges × (1 – Churn_Prob)` |
 | 🎯 **2×2 Segmentation Matrix** | Classifies every customer into High/Low Risk × High/Low Value for action prioritisation |
-| 📈 **Executive Excel Report** | 13-sheet workbook with 14 KPI cards, 6 embedded charts, colour-coded risk indicators, and a full pipeline audit trail |
+| 📈 **Executive Excel Report** | 12-sheet workbook with 14 KPI cards, 6 embedded charts, colour-coded risk indicators, and a full pipeline audit trail |
 | 🔒 **Safe File Saving** | Retry logic (up to 3 attempts) with automatic timestamp-based renaming when the target file is locked or already open |
 | ⚠️ **Transparency Warnings** | Prominently flags synthetic labels throughout the report and suppresses misleading ML metrics for ethical, auditable reporting |
 
@@ -199,7 +199,7 @@ Choose a save location and filename. The fully formatted `.xlsx` report is gener
 | CSV | `.csv` | Auto-detects separator (`,` `;` `\t` `\|` `:`) |
 | Excel (modern) | `.xlsx` `.xlsm` `.xlsb` | Uses `openpyxl` engine |
 | Excel (legacy) | `.xls` | Uses `xlrd` engine |
-| OpenDocument | `.ods` | Uses `odf` engine |
+| OpenDocument | `.ods` | Uses the odf engine (provided by odfpy) |
 | Text / TSV | `.txt` `.tsv` | Same separator auto-detection as CSV |
 
 **Encodings tried automatically:** `utf-8-sig`, `utf-8`, `latin1`, `cp1252`, `iso-8859-1`, `utf-16`
@@ -282,7 +282,7 @@ All features are imputed with **median strategy** (`sklearn.impute.SimpleImputer
 <a id="output-report-structure"></a>
 ## 📊 Output Report Structure
 
-The generated `.xlsx` file always contains **13 sheets**:
+The generated `.xlsx` file always contains **12 sheets**:
 
 ### Sheet 1 — Dashboard
 
@@ -341,7 +341,7 @@ Full pipeline audit trail including:
 - Methodology notes and formula explanations
 - All output KPIs with their calculation basis
 
-### Sheets 7–13 — Chart Source Data
+### Sheets 7–12 — Chart Source Data
 
 `Data – Segments` · `Data – Risk Tiers` · `Data – Churn Prob` · `Data – CLV` · `Data – Tenure` · `Data – Monthly`
 
