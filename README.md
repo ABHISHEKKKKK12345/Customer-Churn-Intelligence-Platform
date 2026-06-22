@@ -59,18 +59,20 @@ Raw Data File  →  Auto-Clean  →  ML Model  →  Segmentation  →  Executive
 ## ⚡ Quick Start
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/churn-intelligence-platform.git
-cd churn-intelligence-platform
+# 1. Clone the repository
+git clone https://github.com/ABHISHEKKKKK12345/Customer-Churn-Intelligence-Platform.git
 
-# 2. Install dependencies
+# 2. Navigate to the project folder
+cd Customer-Churn-Intelligence-Platform
+
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run the tool
+# 4. Run the tool
 python customer_churn_intelligence_system.py
 ```
 
-A GUI window will guide you through the rest — no configuration files, no command-line arguments.
+A GUI window will guide you through the rest — no configuration files, no command-line arguments required.
 
 ---
 
@@ -132,8 +134,8 @@ A GUI window will guide you through the rest — no configuration files, no comm
 ### Step 1 — Clone or Download the Project
 
 ```bash
-git clone https://github.com/your-username/churn-intelligence-platform.git
-cd churn-intelligence-platform
+git clone https://github.com/ABHISHEKKKKK12345/Customer-Churn-Intelligence-Platform.git
+cd Customer-Churn-Intelligence-Platform
 ```
 
 ### Step 2 — Install Dependencies
@@ -199,7 +201,7 @@ Choose a save location and filename. The fully formatted `.xlsx` report is gener
 | CSV | `.csv` | Auto-detects separator (`,` `;` `\t` `\|` `:`) |
 | Excel (modern) | `.xlsx` `.xlsm` `.xlsb` | Uses `openpyxl` engine |
 | Excel (legacy) | `.xls` | Uses `xlrd` engine |
-| OpenDocument | `.ods` | Uses the odf engine (provided by odfpy) |
+| OpenDocument | `.ods` | Read using the odfpy library |
 | Text / TSV | `.txt` `.tsv` | Same separator auto-detection as CSV |
 
 **Encodings tried automatically:** `utf-8-sig`, `utf-8`, `latin1`, `cp1252`, `iso-8859-1`, `utf-16`
@@ -487,7 +489,7 @@ dist/Customer_Churn_Intelligence_Platform.exe
 ## 📂 Project Structure
 
 ```
-churn-intelligence-platform/
+Customer-Churn-Intelligence-Platform/
 │
 ├── customer_churn_intelligence_system.py   # Main application — single self-contained file
 ├── requirements.txt                        # All Python dependencies
