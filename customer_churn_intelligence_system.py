@@ -1482,8 +1482,8 @@ try:
         f"  High Risk Customers    Top 1,000 at-risk customers\n"
         f"  Processed Data         All engineered features\n"
         f"  Raw Data               Original file untouched\n"
-        f"  Data Quality Report    Full pipeline audit\n"
-        f"  Data – *  (7 sheets)   Chart-source data",
+        f"  Data Qualit Report    Full pipeline audit\n"
+        f"  Data – *  (6 sheets)   Chart-source data",
     )
 
 # ==============================================================================
