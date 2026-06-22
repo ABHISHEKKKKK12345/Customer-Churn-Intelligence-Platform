@@ -815,10 +815,21 @@ class ChurnApp:
 
         # ── CLV & Segments ───────────────────────────────────────────────────────
         try:
-            tc_clean = df["TotalCharges"].replace([np.inf,-np.inf],np.nan).clip(lower=0).fillna(0)
-            df["Predicted_CLV"] = (tc_clean * (1-df["Churn_Prob"])).clip(lower=0)
+            remaining_life = (
+                df["tenure"] *
+                (1 - df["Churn_Prob"])
+            ).clip(lower=0)
+
+            df["Predicted_CLV"] = (
+                df["MonthlyCharges"] *
+                remaining_life
+            ).clip(lower=0)
+
         except Exception:
-            df["Predicted_CLV"] = df["TotalCharges"].clip(lower=0).fillna(0)
+            df["Predicted_CLV"] = (
+                df["MonthlyCharges"] *
+                df["tenure"]
+            ).clip(lower=0).fillna(0)
 
         hi_risk = df["Churn_Prob"] >= 0.60
         hi_clv  = df["Predicted_CLV"] >= df["Predicted_CLV"].median()
