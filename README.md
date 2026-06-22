@@ -542,6 +542,6 @@ This project is released under the [MIT License](LICENSE). You are free to use, 
 
 <div align="center">
 
-*Built with ❤️ for data professionals who need answers, not just data.*
+*Built with ❤️ to transform raw customer data into actionable business intelligence.*
 
 </div>
