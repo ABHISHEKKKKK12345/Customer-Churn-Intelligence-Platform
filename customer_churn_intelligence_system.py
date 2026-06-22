@@ -791,7 +791,7 @@ try:
                 "kpi_amber":  MF(bold=True, sz=16, fc=C["orange"], bg=C["white"], bc=C["mgrey"]),
                 "kpi_purple": MF(bold=True, sz=16, fc=C["purple"], bg=C["white"], bc=C["mgrey"]),
                 "kpi_warn":   MF(bold=True, sz=10, fc=C["warn_fc"], bg=C["warn_bg"],
-                                  bc=C["amber"], wrap=True),
+                                  bc=C["amber"]),
 
                 "cell":       MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"]),
                 "cell_alt":   MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"]),
