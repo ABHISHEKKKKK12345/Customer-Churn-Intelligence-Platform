@@ -1401,8 +1401,8 @@ try:
                  "Forward-looking proxy. Historical TotalCharges at risk: "
                  f"Rs.{tc_at_risk_hist:,.0f}."),
                 ("row", "Churn Probability",
-                 "Predicted using Machine Learning (Random Forest / Gradient Boosting) when valid churn labels are available; otherwise a heuristic risk-scoring approach is used. "
-                 "rows with real labels; otherwise heuristic percentile ranking."),
+                 "("row", "Churn Probability", 
+                 "Predicted using Machine Learning (Random Forest / Gradient Boosting) when valid churn labels are available; otherwise a heuristic risk-scoring approach is used."),
                 ("row", "Segmentation",
                  "2×2 matrix: High/Low Risk (Churn_Prob ≥ 0.60) × "
                  "High/Low Value (Predicted_CLV ≥ median CLV)."),
