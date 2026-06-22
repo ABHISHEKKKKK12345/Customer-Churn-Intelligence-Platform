@@ -798,8 +798,8 @@ try:
 
                 "cell":       MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"]),
                 "cell_alt":   MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"]),
-                "cell_l":     MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"], left=True),
-                "cell_l_alt": MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"], left=True),
+                "cell_l":     MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"], left=True, wrap=True),
+                "cell_l_alt": MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"], left=True, wrap=True),
 
                 "num":      MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"], num_fmt="#,##0"),
                 "num_alt":  MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"], num_fmt="#,##0"),
@@ -1339,7 +1339,7 @@ try:
             ws6.set_zoom(95)
             ws6.set_column(0, 0, 1.5)
             ws6.set_column(1, 1, 38)
-            ws6.set_column(2, 2, 65)
+            ws6.set_column(2, 2, 120)
             for r, h in [(0, 5), (1, 46), (2, 20), (3, 8)]:
                 ws6.set_row(r, h)
 
@@ -1437,7 +1437,7 @@ try:
                     alt = (data_row_i % 2 == 1)
                     ws6.set_row(r, 20)
                     ws6.write(r, 1, item[1], F["cell_l_alt" if alt else "cell_l"])
-                    ws6.write(r, 2, item[2], F["cell_alt"   if alt else "cell"])
+                    ws6.write(r, 2, item[2], F["cell_l_alt" if alt else "cell_l"])
                     data_row_i += 1
                 r += 1
 
