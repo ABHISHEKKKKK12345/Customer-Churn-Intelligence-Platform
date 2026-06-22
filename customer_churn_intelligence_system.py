@@ -795,8 +795,8 @@ try:
 
                 "cell":       MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"]),
                 "cell_alt":   MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"]),
-                "cell_l":     MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"], left=True, wrap=True),
-                "cell_l_alt": MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"], left=True, wrap=True),
+                "cell_l":     MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"], left=True),
+                "cell_l_alt": MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"], left=True),
 
                 "num":      MF(sz=10, fc=C["navy"], bg=C["white"], bc=C["mgrey"], num_fmt="#,##0"),
                 "num_alt":  MF(sz=10, fc=C["navy"], bg=C["lgrey"], bc=C["mgrey"], num_fmt="#,##0"),
