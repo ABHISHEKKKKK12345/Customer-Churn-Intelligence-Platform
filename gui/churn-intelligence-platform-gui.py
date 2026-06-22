@@ -828,7 +828,7 @@ class ChurnApp:
         df["Segment"]   = df["Segment"].fillna("Low Risk – Low Value")
         df["Risk_Tier"] = pd.cut(
             df["Churn_Prob"], bins=[0,0.30,0.60,1.001],
-            labels=["Low Risk (0-30%)","Medium Risk (30-60%)","High Risk (60-100%)"],
+            labels=["Low Risk (0-30%)","Medium Risk (30-60%)","High Risk (60-100%)"],right=False,
             include_lowest=True).astype(str).fillna("Low Risk (0-30%)")
 
         # ── KPIs ─────────────────────────────────────────────────────────────────
